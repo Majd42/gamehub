@@ -1,0 +1,24 @@
+.container{
+    margin-top: 8rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.card {
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.form {
+    width: 50%;
+}
+
+.select{ 
+    width: 200px;
+}
