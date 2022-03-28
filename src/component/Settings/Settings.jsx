@@ -2,10 +2,12 @@ import { InputLabel, MenuItem, Select, Grid, Card, CardHeader } from '@mui/mater
 import React, { useContext } from 'react'
 import { AppContext } from '../../contexts/AppContext'
 
+
 import './styles.css'
 
 const Settings = () => {
 
+  
     const {theme, setTheme} = useContext(AppContext);
 
     const handleChange = (e) => {
@@ -32,7 +34,10 @@ const Settings = () => {
                                     value={theme}    
                                 >
                                     <MenuItem value='secondary' >Pink</MenuItem>
-                                    <MenuItem value='primary' >blue</MenuItem>
+                                    <MenuItem value='primary' >Blue</MenuItem>
+                                    <MenuItem value='success'>Green</MenuItem>
+                                    <MenuItem value='error'>Red</MenuItem>
+                                    <MenuItem value='warning'>Orange</MenuItem>
                                 </Select>
                         
                     </Grid>
